@@ -1,4 +1,4 @@
-CREATE DATABASE pet_shop
+CREATE DATABASE pet_shop;
 
 CREATE TABLE cliente (
   id_cliente SERIAL,
