@@ -13,7 +13,7 @@ CREATE TABLE pet(
   id_cliente  INTEGER NOT NULL,
   nome_pet VARCHAR(80) NOT NULL,
   especie VARCHAR(50),
-  data_nascimento DATE CURRENT_DATE,
+  data_nascimento DATE,
   CONSTRAINT pk_pet PRIMARY_KEY(id_pet),
   CONSTRAINT fk_cliente FOREIGN KEY(id_cliente) REFERENCES cliente(id_cliente)
 )
